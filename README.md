@@ -14,6 +14,8 @@ This repo contains an example of a battery characterization test using the Keith
 * Current Drive, Voltage Measurement
 * Voltage Drive, Current Measurement
 
+Note that battery measurements are quite straightforward. Unfortunately, hardware measurements are sometimes complicated by input issues. For example, some hardware expects certain voltage levels or it will not start. The Keithley must apply that start voltage before it moves to the the desired test voltage.
+
 # Background
 
 ## Definitions
